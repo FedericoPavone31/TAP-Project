@@ -21,7 +21,7 @@ dataset = (
     .schema(schema)
     .option("escape", "\"")
     .load(
-        "/home/federico/YTSentiment/spark/dataset/dataset.csv.gz"
+        "/home/federico/YTSentiment/spark/dataset/dataset.csv"
     )
 )
 
